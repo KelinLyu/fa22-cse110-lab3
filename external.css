@@ -1,0 +1,151 @@
+/* this is a line of comment... */
+@font-face {
+    font-family: "Comforter Brush Regular";
+    src: url("ComforterBrush-Regular.ttf") format("truetype");
+}
+body {
+    display: block;
+}
+h1 {
+    color: rgba(255, 0, 0, 255);
+    background-color: lightgray;
+    text-align: center;
+    margin-right: 10em;
+    margin-top: 10ex;
+    margin-bottom: lh;
+    position: static;
+    font-family: "Comforter Brush Regular";
+}
+@media only screen and (max-width: 2000px) {
+    h1:hover {
+        color: blue;
+        background-color: red;
+    }
+    h1:active {
+        color: purple;
+        background-color: orange;
+    }
+}
+h2 {
+    color: #FFFFFF;
+    background-color: gray;
+    text-align: left;
+    margin: 80px 10mm 1cm 2mm;
+    position: relative;
+}
+h2:hover {
+    background-color: red;
+}
+h2:active {
+    background-color: orange;
+}
+h3 {
+    color: hsl(0, 0, 255);
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+}
+.attendance {
+    border-style: solid;
+    border-color: red;
+    border-width: 0.5cm;
+    border-radius: 0.25cm;
+    height: 2cm;
+    width: 6cm;
+}
+ol {
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: 1mm;
+    padding-right: 1mm;
+    text-align: center;
+    display: inline-block;
+    max-height: 10cm;
+    max-width: 10cm;
+}
+li {
+    color: rgba(255, 0, 0, 255);
+    padding: 5mm 5mm 5mm 10mm;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flexbox > div {
+    background-color: darkred;
+    text-align: center;
+    margin: 0.5cm 0.5cm 0.5cm 0.5cm;
+    width: 3cm;
+    height: 1cm;
+}
+.grid1 {
+    grid-area: grid1;
+}
+.grid2 {
+    grid-area: grid2;
+}
+.grid3 {
+    grid-area: grid3;
+}
+.grid4 {
+    grid-area: grid4;
+}
+.grid5 {
+    grid-area: grid5;
+}
+.grid6 {
+    grid-area: grid6;
+}
+.grid {
+    display: grid;
+    grid-template-areas:
+    'grid1 grid1 grid2 grid2 grid2 grid2'
+    'grid3 grid3 grid3 grid3 grid4 grid4'
+    'grid5 grid5 grid5 grid6 grid6 grid6';
+    gap: 1cm;
+    padding: 1cm;
+}
+.grid > div {
+    background-color: darkred;
+    text-align: center;
+}
+#id {
+    color: white;
+}
+* {
+    color: orange;
+}
+a[href="https://soyacincau.com/2020/06/05/command-and-conquer-remastered-collection-skg-kane-villain-5-june/"] {
+    color: lightblue;
+}
+p, h1 {
+    border-style: solid;
+    border-color: pink;
+    border-width: 0.2cm;
+    border-radius: 0.1cm;
+}
+ol li {
+    border-style: solid;
+    border-color: red;
+    border-width: 0.1cm;
+    border-radius: 0cm;
+}
+p ~ img {
+    border-style: solid;
+    border-color: blue;
+    border-width: 1cm;
+    border-radius: 0cm;
+}
+p + video {
+    border-style: solid;
+    border-color: red;
+    border-width: 1cm;
+    border-radius: 0cm;
+}
+div.grid {
+    border-style: solid;
+    border-color: green;
+    border-width: 1cm;
+    border-radius: 0cm;
+}
