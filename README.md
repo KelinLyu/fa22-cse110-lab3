@@ -1,4 +1,2 @@
-# CSE-110-Lab-0-1
-Dear TA: please check out the screenshots folder (W3 validator's screenshot attached below). And here is the link to my [HTML Page](https://kelinlyu.github.io/CSE-110-Lab-2/). Thank you.
-# Screenshots
-![Image](screenshots/screenshot.png)
+This is the README.md file containing the URL of your new GitHub Pages site:
+[https://kelinlyu.github.io/fa22-cse110-lab3](https://kelinlyu.github.io/fa22-cse110-lab3)
